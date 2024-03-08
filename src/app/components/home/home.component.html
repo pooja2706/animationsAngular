@@ -1,0 +1,9 @@
+
+<div class="screen-container" *ngIf="!clicked">
+  <div class="btn" >
+    <button class="signupbtn" (click)="onclick(true)">Confirm Payment</button>
+  </div>
+</div>
+<app-tick *ngIf="clicked"></app-tick>
+
+

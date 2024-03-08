@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="index.css" rel="stylesheet">
+    <link href="../../styles.css" rel="stylesheet"> -->
+
+</head>
+<body>
+    <div class="screen-container">
+        <div class="display-container" >
+          <button (click)="dialognew.show()">Add</button>
+          <dialog #dialognew open>
+            <form [formGroup]="addingform">
+              <!-- <form-field> -->
+                <label>dfdfd</label>
+                <input placeholder="header" formControlName="header">
+
+              <!-- </form-field> -->
+              <label>dfdfd</label>
+
+              <input placeholder="content" formControlName="content">
+
+            </form>
+            <button (click)="add()">Save</button>
+          </dialog>
+        </div>
+        <div class="iphone-btn"></div>
+    </div>
+    <div class="screen-container">
+      <div class="display-container" >
+        <div class="card-container">
+          <div class="card" *ngFor="let card of cardvalues; index as i"  style="--distance: {{i*8}}0px;" >
+          </div>
+        </div>
+      </div>
+      <div class="iphone-btn"></div>
+  </div>
+</body>
+</html>

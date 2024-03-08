@@ -1,0 +1,39 @@
+.signupbtn{
+  margin: auto;
+  border: groove;
+  border-width: thin;
+  border-radius: 70px;
+  height: 100px;
+  width: 302px;
+  height: 40px;
+  background-color: rgb(20, 116, 219);
+  color: white;
+  font-size: 20px;
+  height: 102px;
+  animation: fadecolor 1s;
+}
+.signupbtn:hover{
+  cursor: pointer;
+  color: white;
+  background-color: rgb(20, 116, 219);
+  font-weight: bold;
+  border-color: rgb(20, 116, 219);
+  box-shadow: 0px 1px 1px rgb(20 116 219), inset 0px 0px 2px rgb(20 116 219 / 95%);
+}
+.btn{
+  display: flex;
+  margin-bottom: 50px;
+  margin: auto;
+}
+/* .container{
+  background-color: white;
+  width: 360px;
+  height: 730px;
+  margin: auto;
+  border-style: solid;
+  margin-top: 20px;
+  border-radius: 50px;
+  display: grid;
+  box-shadow: 10px 10px 10px grey, 0 0 10px #000000eb;
+  backdrop-filter: brightness(90%);
+} */

@@ -1,0 +1,43 @@
+.circle {
+  height: 300px;
+  width:  300px;
+  border-style: ridge;
+  border-radius: 100%;
+  border-color: rebeccapurple;
+  margin: auto;
+  display: table-column;
+  /* animation: rotate 1s; */
+  z-index: 9;
+  /* animation-iteration-count: 1;transform: scale(0.9); */
+}
+
+.circle-mini{
+  height:   190px;
+  width:    190px;
+  border-style: ridge;
+  border-radius: 100%;
+  border-color: rebeccapurple;
+  margin: auto;
+  display: table-column;
+
+}
+
+.container{
+  height: -webkit-fill-available;
+  /* background-color: red; */
+  display: flex;
+}
+
+@keyframes rotate{
+  0%{
+    transform: scale(0.1);
+  }
+  30%{
+    transform: scale(0.5);
+  }
+  100%{
+    transform: scale(1);
+  }
+
+
+}

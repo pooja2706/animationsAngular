@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+.screen-container{
+  background-color: white;
+  width: 360px;
+  height: 730px;
+  margin: auto;
+  border-style: solid;
+  margin-top: 20px;
+  border-radius: 50px;
+  display: flow;
+  box-shadow: 10px 10px 10px grey, 0 0 10px #000000eb;
+  backdrop-filter: brightness(90%);
+  overflow: hidden;
+  background-color: #0f0e0e;
+  /* background-color: white; */
+}
+.iphone-btn
+{
+    background-color: #191818;
+    height: 64px;
+    width: 64px;
+    border-radius: 124px;
+    margin: auto;
+    border-style: double;
+    border-color: #414141;
+    margin-bottom: 35px;
+}

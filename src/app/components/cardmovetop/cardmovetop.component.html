@@ -1,0 +1,22 @@
+<body>
+  <div class="screen-container">
+    <div class="display-container">
+      <div
+      class="cards"
+      *ngFor="let content of cardcontent; index as i"
+      style="--distance: {{i}}00px; --secondarycolor: {{content.cardcolor.secondarycolor}}"
+      [ngClass]="!check?'cards':'cards-afterclick'"
+      (click)="checkclick()"
+      >
+          <div class="header" style="--primarycolor: {{content.cardcolor.primarycolor}};">
+            {{content.cardcontent.headline}}
+          </div>
+          <div class="content" *ngFor="let point of content.cardcontent.body;">
+            <i class="arrowicon"></i>
+            {{point}}
+          </div>
+      </div>
+    </div>
+    <div class="iphone-btn"></div>
+  </div>
+</body>>

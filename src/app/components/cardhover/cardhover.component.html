@@ -1,0 +1,18 @@
+<body>
+  <div class="screen-container">
+    <div class="display-container">
+      <div class="container">
+        <div class="card" *ngFor="let content of cardcontent; index as i" style="--distance: {{7*i}}0px">
+            <div class="header" style="--primarycolor: {{content.cardcolor.primarycolor}}">
+              {{content.cardcontent.headline}}
+            </div>
+            <div class="content" style="--secondarycolor: {{content.cardcolor.secondarycolor}}">
+              {{content.cardcontent.body}}
+            </div>
+        </div >
+    </div>
+
+    </div>
+    <div class="iphone-btn"></div>
+  </div>
+</body>

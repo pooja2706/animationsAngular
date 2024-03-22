@@ -83,7 +83,6 @@ form label{
   animation-delay: 0.8s;
   animation: move 1.2s 1;
   background: url(./card2.svg);
-
 }
 .card:nth-child(3){
   animation-delay: 1.2s;
@@ -102,8 +101,6 @@ form label{
   0%{
     transform: translateY(50pc);
   }
-
-
 }
 
 @keyframes moveout {
